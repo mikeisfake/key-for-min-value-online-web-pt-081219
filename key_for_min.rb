@@ -6,8 +6,7 @@ def key_for_min_value(hash)
   min_key = nil
   
   hash.each do |key, value|
-      if 
-        value == 0 || value < min_val 
+      if value == 0 || value < min_val 
         min_val = value 
         min_key = key 
       end 
